@@ -1,3 +1,6 @@
-import random
-import discord
-import time
+from dotenv import load_dotenv
+import os
+
+load_dotenv()
+token = os.environ.get("token")
+print(token)
